@@ -1,7 +1,11 @@
+import Titulo from "./components/Titulo"
+
 function App() {
 
   return (
-    <section></section>
+    <section>
+      <Titulo friend="my friend!"></Titulo>
+    </section>
   )
 }
 
